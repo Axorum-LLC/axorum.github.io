@@ -1,0 +1,6 @@
+/* Remove the max-width constraint */
+#root {
+  margin: auto;
+  text-align: center;
+  vertical-align: auto;
+}
