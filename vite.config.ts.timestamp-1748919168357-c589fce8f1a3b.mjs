@@ -1,0 +1,18 @@
+// vite.config.ts
+import path from "path";
+import react from "file:///C:/Users/Fishy/Dropbox/Career/Axorum%20LLC/GitHub/axorum.github.io/node_modules/@vitejs/plugin-react/dist/index.mjs";
+import { defineConfig } from "file:///C:/Users/Fishy/Dropbox/Career/Axorum%20LLC/GitHub/axorum.github.io/node_modules/vite/dist/node/index.js";
+var __vite_injected_original_dirname = "C:\\Users\\Fishy\\Dropbox\\Career\\Axorum LLC\\GitHub\\axorum.github.io";
+var vite_config_default = defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__vite_injected_original_dirname, "./src")
+    }
+  },
+  base: "/"
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcudHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxGaXNoeVxcXFxEcm9wYm94XFxcXENhcmVlclxcXFxBeG9ydW0gTExDXFxcXEdpdEh1YlxcXFxheG9ydW0uZ2l0aHViLmlvXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ZpbGVuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxGaXNoeVxcXFxEcm9wYm94XFxcXENhcmVlclxcXFxBeG9ydW0gTExDXFxcXEdpdEh1YlxcXFxheG9ydW0uZ2l0aHViLmlvXFxcXHZpdGUuY29uZmlnLnRzXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ltcG9ydF9tZXRhX3VybCA9IFwiZmlsZTovLy9DOi9Vc2Vycy9GaXNoeS9Ecm9wYm94L0NhcmVlci9BeG9ydW0lMjBMTEMvR2l0SHViL2F4b3J1bS5naXRodWIuaW8vdml0ZS5jb25maWcudHNcIjtpbXBvcnQgcGF0aCBmcm9tICdwYXRoJztcbmltcG9ydCByZWFjdCBmcm9tICdAdml0ZWpzL3BsdWdpbi1yZWFjdCc7XG5pbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tICd2aXRlJztcblxuZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHtcbiAgcGx1Z2luczogW3JlYWN0KCldLFxuICByZXNvbHZlOiB7XG4gICAgYWxpYXM6IHtcbiAgICAgICdAJzogcGF0aC5yZXNvbHZlKF9fZGlybmFtZSwgJy4vc3JjJyksXG4gICAgfSxcbiAgfSxcbiAgYmFzZTogJy8nLFxufSk7XG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQW9ZLE9BQU8sVUFBVTtBQUNyWixPQUFPLFdBQVc7QUFDbEIsU0FBUyxvQkFBb0I7QUFGN0IsSUFBTSxtQ0FBbUM7QUFJekMsSUFBTyxzQkFBUSxhQUFhO0FBQUEsRUFDMUIsU0FBUyxDQUFDLE1BQU0sQ0FBQztBQUFBLEVBQ2pCLFNBQVM7QUFBQSxJQUNQLE9BQU87QUFBQSxNQUNMLEtBQUssS0FBSyxRQUFRLGtDQUFXLE9BQU87QUFBQSxJQUN0QztBQUFBLEVBQ0Y7QUFBQSxFQUNBLE1BQU07QUFDUixDQUFDOyIsCiAgIm5hbWVzIjogW10KfQo=

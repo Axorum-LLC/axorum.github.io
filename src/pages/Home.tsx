@@ -46,7 +46,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative w-full">
         <div className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-32 text-center">
-          <h1 className="text-9xl font-normal mb-6 logo">
+          <h1 className="text-6xl md:text-9xl font-normal mb-6 logo">
             Axorum
           </h1>
           <h1 className="text-4xl md:text-6xl font-semibold mb-6">
