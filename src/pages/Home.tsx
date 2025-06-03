@@ -26,20 +26,20 @@ export default function Home() {
     },
   ];
 
-  const testimonials = [
-    {
-      quote: "Axorum transformed our financial operations and helped us scale efficiently.",
-      author: "Sarah Chen",
-      role: "CEO, TechStart",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150",
-    },
-    {
-      quote: "Their strategic insights were crucial for our Series A fundraising success.",
-      author: "Michael Rodriguez",
-      role: "Founder, DataFlow",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150",
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     quote: "Axorum transformed our financial operations and helped us scale efficiently.",
+  //     author: "Sarah Chen",
+  //     role: "CEO, TechStart",
+  //     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150",
+  //   },
+  //   {
+  //     quote: "Their strategic insights were crucial for our Series A fundraising success.",
+  //     author: "Michael Rodriguez",
+  //     role: "Founder, DataFlow",
+  //     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150",
+  //   },
+  // ];
 
   return (
     <div className="w-full space-y-32 pb-32">
